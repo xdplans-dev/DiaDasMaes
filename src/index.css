@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-poetic: "Cormorant Garamond", serif;
+  
+  --color-gold-soft: #F7E7CE;
+  --color-petal-pink: #FFD1DC;
+  --color-pearl: #FDFCF0;
+  --color-night-deep: #0D0D1A;
+}
+
+@layer base {
+  body {
+    @apply bg-pearl text-slate-800 antialiased overflow-x-hidden;
+    background-image: radial-gradient(circle at 50% 50%, rgba(255, 209, 220, 0.1) 0%, transparent 80%);
+  }
+}
+
+.glass {
+  @apply backdrop-blur-md bg-white/20 border border-white/30;
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(247, 231, 206, 0.5);
+}
+
+.cinematic-mask {
+  mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
+}
+
