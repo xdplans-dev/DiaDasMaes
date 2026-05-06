@@ -303,9 +303,10 @@ export default function App() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 0.5 }}
                 transition={{ delay: 1.5 }}
-                className="mt-20 text-xs uppercase tracking-[0.5em] text-pearl/50"
+                className="mt-20 text-[10px] md:text-xs uppercase tracking-[0.5em] text-pearl/50 flex flex-col items-center gap-2"
               >
-                Com amor • 2026
+                <span>Com amor • David Xavier (XD Plans) • 2026</span>
+                <span className="opacity-50">Um presente de desenvolvedor para o mundo</span>
               </motion.footer>
             </motion.div>
           )}
