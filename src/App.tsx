@@ -145,9 +145,9 @@ export default function App() {
             <div className="relative w-full h-full max-w-md">
               <div className="absolute inset-0 glass rounded-[60px] transform rotate-3 shadow-2xl" />
               <img 
-                src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&q=80&w=1000" 
-                alt="Flores"
-                className="absolute inset-0 w-full h-full object-cover rounded-[50px] shadow-xl grayscale-[0.2] sepia-[0.2]"
+                src="/images/maezelia.png" 
+                alt="David e Zélia"
+                className="absolute inset-0 w-full h-full object-cover rounded-[50px] shadow-xl"
               />
               <motion.div 
                 className="absolute -top-10 -right-10 w-24 h-24 glass rounded-full flex items-center justify-center"
